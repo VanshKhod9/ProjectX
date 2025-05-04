@@ -13,6 +13,32 @@
   border-radius: 50%;
   width: 96px;
   cursor: pointer;
-  object-fit:cover;
+  object-fit: cover;
   z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .penguin-icon {
+    bottom: 20px;
+    right: 20px;
+    height: 80px;
+    width: 80px;
+  }
+
+  .ground {
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .penguin-icon {
+    bottom: 15px;
+    right: 15px;
+    height: 60px;
+    width: 60px;
+  }
+
+  .ground {
+    height: 120px;
+  }
 }

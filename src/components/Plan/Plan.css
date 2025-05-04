@@ -85,3 +85,74 @@
   border-radius: 20px;
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+  .x1-container {
+    padding: 30px 15px;
+  }
+
+  .x1-title {
+    font-size: 1.8rem;
+  }
+
+  .x1-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .x1-toggle-buttons {
+    margin: 15px 0;
+  }
+
+  .x1-card {
+    width: 250px;
+  }
+
+  .x1-card-container {
+    gap: 15px;
+  }
+
+  .x1-price {
+    font-size: 1rem;
+  }
+
+  .x1-card ul li {
+    font-size: 0.9rem;
+  }
+
+  .x1-btn {
+    font-size: 14px;
+    padding: 8px 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .x1-container {
+    padding: 20px 10px;
+  }
+
+  .x1-title {
+    font-size: 1.6rem;
+  }
+
+  .x1-subtitle {
+    font-size: 0.85rem;
+  }
+
+  .x1-card {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .x1-price {
+    font-size: 0.95rem;
+  }
+
+  .x1-card ul li {
+    font-size: 0.85rem;
+  }
+
+  .x1-btn {
+    padding: 8px 14px;
+    font-size: 13px;
+  }
+}

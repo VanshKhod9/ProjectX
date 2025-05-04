@@ -1,4 +1,3 @@
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -24,16 +23,15 @@
   font-size: 16px;
   font-weight: 500;
   line-height: 150%;
-
 }
-li:hover{
+
+li:hover {
   border-bottom: 2px solid white;
 }
 
 .topbar {
   display: flex;
   align-items: center;
-  
 }
 
 .right-side {
@@ -58,7 +56,7 @@ li:hover{
   .navbar {
     flex-direction: column;
     align-items: flex-start;
-    padding: 12px 40px; 
+    padding: 12px 40px;
   }
 
   .navbar nav ul {
@@ -80,7 +78,7 @@ li:hover{
 
 @media (max-width: 480px) {
   .navbar {
-    padding: 12px 20px; 
+    padding: 12px 20px;
   }
 
   .navbar nav ul li {

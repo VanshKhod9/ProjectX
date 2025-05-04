@@ -12,14 +12,14 @@
   font-weight: bold;
   font-size: 20px;
   color: #003c46;
-  display: flex; 
+  display: flex;
   align-items: center;
 }
 
 .logo img {
   height: 47px;
   width: 120px;
-  margin-right: 10px; /* Adjusts spacing between logo image and text if needed */
+  margin-right: 10px;
 }
 
 .nav-links {
@@ -82,9 +82,24 @@
     padding: 20px;
     gap: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
   }
 
   .hamburger {
     display: block;
+  }
+
+  .LowerNavbar {
+    flex-wrap: wrap;
+  }
+
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+
+  .signup {
+    width: 100%;
+    text-align: center;
   }
 }
