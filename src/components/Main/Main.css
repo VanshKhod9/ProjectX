@@ -245,6 +245,16 @@ h1 {
 .cta-button button:hover {
   background-color: #006666;
 }
+.tagline {
+  color: #00a2a2;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+  transition: opacity 0.2s ease-in-out;
+  min-height: 24px;
+  opacity: 1;
+}
+
 
 /* Responsive layout */
 @media (max-width: 900px) {

@@ -1,15 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Main.css";
 import curve1 from "../../assets/curve1.svg";
 import curve2 from "../../assets/curve2.svg";
 import profilephoto from "../../assets/profilephoto.png";
 
 const HeroSection = () => {
+  const words = ["create", "manage", "grow", "earn", "plan", "design", "create"];
+  const [currentWordIndex, setCurrentWordIndex] = useState(0);
+  const currentWord = words[currentWordIndex];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentWordIndex((prevIndex) => (prevIndex + 1) % words.length);
+    }, 200);
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section className="hero-section">
       <div className="hero-content">
         <div className="left">
-          <p className="tagline">PLAN</p>
+          <p className="tagline">{currentWord.toUpperCase()}</p>
           <h1>Your AI Teaching Assistants Team</h1>
           <p className="subtitle">
             Smarter planning. Effortless teaching. Exponential impact.
@@ -27,11 +38,7 @@ const HeroSection = () => {
 
         <div className="right">
           <div className="circle-bg">
-            <img
-              src={profilephoto}
-              alt="Teacher"
-              className="profile-img"
-            />
+            <img src={profilephoto} alt="Teacher" className="profile-img" />
           </div>
         </div>
       </div>
@@ -152,8 +159,7 @@ const HeroSection = () => {
 
       <div className="workspace-section">
         <h2>Your AI-Powered Teaching Workspaces</h2>
-        <div className="grid">
-        </div>
+        <div className="grid"></div>
         <div className="cta-button">
           <button>Explore Plan Workspace →</button>
         </div>
@@ -169,10 +175,8 @@ const HeroSection = () => {
           Explore the AI-powered tools that simplify your day, spark engagement,
           and save hours of effort.
         </p>
-        <div className="feature-container">
-        </div>
-        <div className="feature-grid">
-        </div>
+        <div className="feature-container"></div>
+        <div className="feature-grid"></div>
         <div className="cta-button">
           <button>Get started for free →</button>
         </div>
