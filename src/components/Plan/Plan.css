@@ -1,0 +1,87 @@
+.x1-container {
+  font-family: 'Helvetica Neue', sans-serif;
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  color: #1a1a1a;
+}
+
+.x1-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.x1-subtitle {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.x1-toggle-buttons {
+  margin: 20px 0;
+}
+
+.x1-toggle {
+  padding: 8px 16px;
+  margin: 0 5px;
+  border: 1px solid #00b18f;
+  border-radius: 20px;
+  background-color: transparent;
+  color: #00b18f;
+  font-weight: 500;
+}
+
+.x1-toggle.x1-active {
+  background-color: #00b18f;
+  color: white;
+}
+
+.x1-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.x1-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.x1-card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.x1-price {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #00b18f;
+  margin: 10px 0;
+}
+
+.x1-card ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.x1-card ul li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+.x1-btn {
+  background-color: #00b18f;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 500;
+}
