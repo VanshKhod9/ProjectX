@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: #f7f7f7;
+  background: #ffffff;
   overflow-x: hidden;
 }
 
@@ -24,7 +24,7 @@ body {
 
 .Frequently-Asked-Questions p {
   font-size: 22px;
-  color: #ffffff;
+  color: #000000;
   margin-bottom: 40px;
 }
 
@@ -69,7 +69,7 @@ body {
   left: 20px;
   transform: translateY(-100%);
   background-color: #4169E1;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 4px 12px;
   border-radius: 4px;
   font-size: 24px;
@@ -79,7 +79,7 @@ body {
 }
 
 .faq-list {
-  background: white;
+  background: rgb(255, 255, 255);
   margin-top: -30px;
 }
 
@@ -120,7 +120,7 @@ body {
   position: absolute;
   width: 20px;
   height: 20px;
-  background: white;
+  background: rgb(255, 255, 255);
   border-radius: 50%;
   top: 2px;
   left: 2px;
@@ -133,8 +133,8 @@ body {
 
 .answer {
   padding: 0 20px 20px;
-  color: #000;
-  background-color: #fff;
+  color: #ffffff;
+  background-color: #ffffff;
 }
 
 /* Responsive styling */
