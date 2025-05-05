@@ -179,7 +179,6 @@ body {
   border-radius: 8px;
 }
 
-/* Responsive Styles */
 
 @media (max-width: 768px) {
   .scroll-blur-left {

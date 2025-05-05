@@ -366,5 +366,5 @@ h1 {
 img[src*="curve2"] {
   width: 100%;
   display: block;
-  margin-top: 20px; /* Ensures there's a bit of space above the curve image */
+  margin-top: 20px;
 }

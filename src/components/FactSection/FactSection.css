@@ -137,7 +137,6 @@ body {
   background-color: #ffffff;
 }
 
-/* Responsive styling */
 @media (max-width: 992px) {
   .faq-wrapper {
     flex-direction: column;
