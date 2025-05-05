@@ -54,6 +54,7 @@ li:hover {
 
 @media (max-width: 768px) {
   .navbar {
+    position: relative;
     flex-direction: column;
     align-items: flex-start;
     padding: 12px 40px;
@@ -62,19 +63,22 @@ li:hover {
   .navbar nav ul {
     flex-direction: column;
     gap: 12px;
-    margin-top: 10px;
+    margin: 0;
   }
 
   .topbar {
-    margin-top: 12px;
-    width: 100%;
-    justify-content: flex-start;
+    position: absolute;
+    top: 12px;
+    right: 20px;
   }
 
   .right-side {
-    gap: 20px;
+    display: flex;
+    gap: 16px;
   }
 }
+
+
 
 @media (max-width: 480px) {
   .navbar {

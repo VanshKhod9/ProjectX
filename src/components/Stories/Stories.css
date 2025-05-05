@@ -182,6 +182,16 @@ body {
 /* Responsive Styles */
 
 @media (max-width: 768px) {
+  .scroll-blur-left {
+    left: 0;
+    background:none;
+  }
+  
+  .scroll-blur-right {
+    right: 0;
+    background:none;
+  }
+  
   .ALLPAGES {
     flex-direction: column;
   }
@@ -192,12 +202,13 @@ body {
   }
 
   .Teacher_About {
+    align-items: center;
     flex-direction: column;
     height: auto;
   }
 
   .boxes6 {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .desc2 {
